@@ -38,7 +38,10 @@ def gerar_cpf():
 
 # Verificador de CPF
 def verifica_cpf():
-    cpf = input(f'\n\033[35mDigite seu CPF:(APENAS DIGITOS)\033[m\033[36m\033[m ')
+    cpf = input(f'\n\033[35mDigite seu CPF:\033[m\033[36m\033[m ')\
+    .replace('.', '')\
+    .replace('-', '') \
+    .replace(' ', '')
 
     # verifica se tem 11 digitos 
     if len(cpf) != 11:
