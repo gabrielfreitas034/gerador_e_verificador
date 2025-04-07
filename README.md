@@ -1,10 +1,37 @@
-# Gerador e Verificador em Python
+# Menu de Opções
 
-Este é um projeto simples que oferece funcionalidades para gerar CPF válido, verificar a validade de um CPF inserido e gerar senhas aleatórias.
+Este projeto implementa um menu de opções interativo em Python, permitindo ao usuário executar diversas funcionalidades úteis.
 
-## Funcionalidades
+## Funcionalidades do Menu
 
-- **Gerar CPF:** Gera um número de CPF válido de forma aleatória.
-- **Verificar CPF:** Permite ao usuário verificar se um CPF inserido é válido.
-- **Gerar Senha:** Gera senhas aleatórias, incluindo letras maiúsculas, minúsculas, números e caracteres especiais.
+O menu apresenta as seguintes opções:
 
+1. **Gerar CPF**  
+   - Gera um CPF válido aleatório.
+
+2. **Verificar CPF**  
+   - Verifica se um CPF fornecido é válido.
+
+3. **Gerar Senha**  
+   - Cria uma senha segura aleatória.
+
+4. **Calcular Média**  
+   - Calcula a média de uma lista de números fornecida pelo usuário.
+
+5. **Converter Temperatura**  
+   - Converte temperaturas entre Celsius e Fahrenheit.
+
+6. **Calcular IMC**  
+   - Calcula o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos.
+
+7. **Exibir Histórico**  
+   - Mostra o histórico de operações realizadas durante a execução do programa.
+
+8. **Exportar Resultados**  
+   - Exporta o histórico de operações para um arquivo.
+
+9. **Ajuda**  
+   - Exibe informações detalhadas sobre o funcionamento de cada opção.
+
+0. **Sair do Programa**  
+   - Encerra o programa.
